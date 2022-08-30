@@ -1,0 +1,94 @@
+
+body {
+    background-color: #0e1111;
+}
+#calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#flexscreenbox {
+    display: flex;
+    margin: 25px 0px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#screentop {
+    font-family: 'Spartan';
+    order: -1;
+    color: #e9e9e9;
+    margin: 5px auto;
+    padding: 5px;
+    height: 50px;
+    width: auto;
+    text-align: right;
+    font-size: 45px;
+}
+
+#screen {
+    font-family: 'Spartan';
+    color: #e9e9e9;
+    padding: 5px;
+    height: 225px;
+    width: auto;
+    text-align: center;
+    font-size: 90px;
+}
+
+#decimal {
+    flex-grow: 2;
+    order: 1;
+}
+
+.numbers {
+    order: 1;
+}
+
+.numbersbox {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.calculatorbuttonsbox {
+    margin: 100px 0px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.calculatorbuttons {
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: #f0870f;
+    color:  rgb(231, 231, 231);
+    font-family: 'Spartan';
+    font-size: 42px;
+    border: none;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+#decimal {
+    background-color:rgb(154, 154, 155);
+}
+.operatorButtons {
+    background-color:rgb(154, 154, 155);
+}
+
+.functionButtons {
+    background-color:rgb(80, 80, 80);
+}
+
+.calculatorbuttons:hover {
+    box-shadow: 0px 0px 4px rgb(252, 252, 252);
+    background-color: #c26a05;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
